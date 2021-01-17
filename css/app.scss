@@ -5,17 +5,22 @@
   align-items: center;
   width: 100%;
   height: 100%;
-  padding: 3rem;
+  padding: 4rem 3rem 3rem;
   font-size: 3rem;
-  background: $black;
-  color: $white;
 
   &__settings {
     margin-bottom: 6rem;
 
-    & input {
+    &-input {
+      width: 100%;
       padding: 1rem;
     }
+  }
+
+  &__heading {
+    //
+
+    &-smaller {}
   }
 
   &__paragraph {
@@ -26,6 +31,7 @@
     padding: 4rem;
     border: .5rem solid $white;
     border-radius: 1rem;
+    outline: none;
     font-size: 4rem;
     text-transform: uppercase;
     cursor: pointer;
@@ -33,9 +39,21 @@
     color: $white;
   }
 
+  &__status {
+    width: 100%;
+    padding: .5rem;
+    border-bottom: .5rem solid $white;
+    text-align: center;
+    background: $gray;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
   &__commissioner {
     color: $blue;
   }
+
   &__mafioso {
     color: $red;
   }

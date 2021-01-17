@@ -7,12 +7,20 @@
 </head>
 <body>
   <div class="app">
+    <div class="app__status display-none">Раздача ролей</div>
+
+    <h1 class="app__heading display-none">Игрок №<span class="app__gamer">1</span></h1>
+
+    <h2 class="app__heading-smaller display-none">Тест</h2>
+
     <label class="app__settings">
       <span>Количество мирных жителей:</span>
-      <input type="number" placeholder="5">
+      <input class="app__settings-input" type="number" placeholder="от 3 до 6">
     </label>
+
     <p class="app__paragraph">В игре также будут присутствовать 1 <span class="app__commissioner">комиссар</span> и 2 <span class="app__mafioso">мафиози</span>.</p>
-    <button class="app__button">Начать игру</button>
+
+    <button class="app__button app__button--start">Начать игру</button>
   </div>
   <script src="./app.js"></script>
 </body>
