@@ -1,0 +1,13 @@
+// Глобальные переменные
+$duration: .4s;
+
+$fontSize: 18px;
+$fontFamily: Balsamiq, Arial, sans-serif;
+
+$black: #000;
+$white: #fff;
+
+// Глобальные функции
+@function rem($size: $fontSize) {
+  @return ($size / $fontSize) + rem;
+}
