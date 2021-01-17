@@ -1,7 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   font: $fontSize $fontFamily;
 }
 
 html, body {
   height: 100%;
+}
+
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
